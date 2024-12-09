@@ -5,12 +5,29 @@ if (A > 0) {
     console.log("manfiyson");
 }
 
-//2 chi misol
-let A = present(prompt("A sonini kiriting:"));
-let B = present(prompt("B sonini kiriting:"));
-let C = present(prompt("C sonini kiriting:"));
+//8 chi misol
+let A = present(prompt("A ni kiriting"));
+let B = present(prompt("B ni kiriting"));
+let C = present(prompt("C ni kiriting"));
 if (A === B || B === C || A === C) {
+    console.log("togri");
+} else {
+    console.log("xato");
+}
+
+//2 misol
+let A = present(prompt("A ni kiriting"));
+if (A % 2 !== 0) {
+    console.log("rost: A toq");
+} else {
+    console.log("yolg'on: A juft");
+}
+//3 misol
+let A = present(prompt("A ni kiriting"));
+let B = present(prompt("B ni kiriting"));
+if (A > 2 && B <= 3) {
     console.log("Jumla rost.");
 } else {
     console.log("Jumla yolg'on.");
 }
+
