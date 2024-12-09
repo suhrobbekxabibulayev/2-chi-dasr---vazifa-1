@@ -30,4 +30,22 @@ if (A > 2 && B <= 3) {
 } else {
     console.log("Jumla yolg'on.");
 }
+//4 misol
+let A = present(prompt("A ni kiriting"));
+let B = present(prompt("B ni kiriting"));
+let C = present(prompt("C ni kiriting"));
+if (A <= B && B <= C) {
+    console.log("rost");
+} else {
+    console.log("xato");
+}
+//5
+let A = parseInt(prompt("A ni kiriting"));
+let B = parseInt(prompt("B ni kiriting"));
+if ((A % 2 === 0 && B % 2 === 0) || (A % 2 !== 0 && B % 2 !== 0)) {
+    console.log(" rost");
+} else {
+    console.log("xato");
+}
+
 
